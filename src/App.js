@@ -28,6 +28,7 @@ import { SearchBox } from "./components/search-box/search-box.component";
     const filteredMonsters=monster.filter(m=>m.name.toLowerCase().includes(searchField.toLowerCase()));
     return (
       <div className="App">
+        <h1>mosnter-rolodex</h1>
         <SearchBox 
         placeholders='search monster'
         handleChange={this.handleChange}
